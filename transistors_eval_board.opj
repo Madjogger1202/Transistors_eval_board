@@ -1,0 +1,114 @@
+(ExpressProject "Class-A-CE-Amplifier"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 P001 (4234998)  [9/4/2024]-[01/06/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\transistors_eval_board.DSN"
+      (Type "Schematic Design")
+      (DisplayName ".\transistors_eval_board.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    ("Allegro Netlist Output Board File" ".\allegro\transistors_eval_board.brd"))
+  (Folder "Layout"
+    (File ".\allegro\transistors_eval_board.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\transistors_eval_board.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile "d:\github_dev\transistors_eval_board\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile "d:\github_dev\transistors_eval_board\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile "d:\github_dev\transistors_eval_board\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile "d:\github_dev\transistors_eval_board\allegro\genfeed.log")))
+  (MPSSessionName "vakva")
+  (PartMRUSelector
+    (X_MOINTING_HOLE
+      (FullPartName "X_MOINTING_HOLE.Normal")
+      (LibraryName "D:\GITHUB_DEV\CADENCE_LIBRARY\SYMBOLS\GOST_MAIN.OLB")
+      (DeviceIndex "0"))
+    (LED_KPHCM-2012SECK
+      (FullPartName "LED_KPHCM-2012SECK.Normal")
+      (LibraryName "D:\GITHUB_DEV\CADENCE_LIBRARY\SYMBOLS\GOST_MAIN.OLB")
+      (DeviceIndex "0"))
+    (XW_SMA-EDGE-S
+      (FullPartName "XW_SMA-EDGE-S.Normal")
+      (LibraryName "D:\GITHUB_DEV\CADENCE_LIBRARY\SYMBOLS\GOST_MAIN.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "D:\CADENCE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\transistors_eval_board.DSN")
+      (Path "Design Resources" ".\transistors_eval_board.DSN" "SCHEMATIC1")
+      (Path "Design Resources" ".\transistors_eval_board.DSN" "Design Cache")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources" ".\transistors_eval_board.DSN" "SCHEMATIC1"
+         "P01_MAIN"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 261 0 798"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1297 24 839")
+        (Scroll "-111 -6")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path "D:\GITHUB_DEV\TRANSISTORS_EVAL_BOARD\TRANSISTORS_EVAL_BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "P01_MAIN"))))
